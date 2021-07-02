@@ -32,7 +32,7 @@ function setup() {
 
 
 function draw() {
-  
+  background(b1);
   push();
   translate(0, height * -0.3, width * -2);
   setGradient(-width*2, -height*1.5 , width * 4, height*3 , b3, b2, b1, Y_AXIS);
